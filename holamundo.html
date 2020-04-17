@@ -14,6 +14,21 @@
         <p>new feature!!!</p>
     </div>
 
+    <div>
+
+        <input type="list">
+
+        <datalist id="lista de datos sobre algo">
+            <option value="primer elemento">
+            <option value="segundo elemento">>
+            <option value="tercer elemento">
+            <option value="cuarto elemento">
+
+        </datalist>
+
+    </div>
+
+
 </body>
 
 </html>
@@ -31,13 +46,15 @@ yo indique en el comando, con HEAD-> git me indica la version del repositorio en
 
 <!-- git reflog es un comando que me trae los nombres de los commits sin los demas datos, como el hash -->
 
-<!-- git brnach es un comando que me trae las brnach que existen en mi repositorio  -->
+<!-- git branch es un comando que me trae las brnach que existen en mi repositorio  -->
 
-<!-- git __________ es un comando que me permite crear brnachs en mi repositorio local, no van a existir en el repo remoto hasta que no haga git push -->
+<!-- git branch "name" es un comando que me permite crear brnachs en mi repositorio local, no van a existir en el repo remoto hasta que no haga git push -->
 
 <!-- git checkout "brnach name" es un comando que me permite moverme entre las distintas branch que esxiste en mi repositorio,
 
 el nombre de la brnach que indico es a la que quier ir, no de la que quiero salir-->
+
+<!-- git push --set-upstream origin "branch name" es el comando que me permite replicar en el repo remoto las branchs que cree en mi repo local -->
 
 <!-- git merge "brnach name" es un comando que me permite fusionar el master con una branch distinta, que es la que tengo que indicar puede generar merge conflicts -->
 
