@@ -1,0 +1,19 @@
+input[type=text] {
+    background-color: red;
+}
+
+
+/* de esta forma le indico a css que el unico input al que quiero dar estilo es el de tipo texto */
+
+button {
+    width: 50px;
+    height: 100px;
+    background-color: green;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+
+/* por medio del hover le indico a css como quiere que el efecto cambie cuando un usuario interactue con el esto se llama sudo class */
